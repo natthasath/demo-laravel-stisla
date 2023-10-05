@@ -11,13 +11,7 @@ Laravel Stisla is a sleek, open-source admin template for Laravel projects. It p
 - Install Package
 
 ```shell
-composer create-project afrizalmy/laravel9-stisla-livewire
-```
-
-- Install Preset
-
-```shell
-php artisan tablar:install
+composer install
 ```
 
 - Final Install
@@ -26,17 +20,6 @@ php artisan tablar:install
 npm install
 npm run build
 php artisan migrate
-```
-
-- Export
-
-```
-php artisan tablar:export-config
-php artisan tablar:export-assets
-php artisan tablar:export-js
-php artisan tablar:export-auth
-php artisan tablar:export-views
-php artisan tablar:export-all
 ```
 
 ### 🏆 Run
